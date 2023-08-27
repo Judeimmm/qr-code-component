@@ -4,9 +4,19 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+body {
+    background-color: grey;
+}
 .main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    text-align: center;
+    background-color: white;
+}
+
+.main > img{
+    border-radius: 5%;
 }
