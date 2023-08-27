@@ -5,6 +5,10 @@
     color: hsl(228, 45%, 44%); 
 }
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: grey;
 }
 .main {
@@ -12,11 +16,19 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    max-width: fit-content;
+    border-radius: 5%;
     text-align: center;
     background-color: white;
 }
 
 .main > img{
     border-radius: 5%;
+    padding: 20px;
+}
+.main > p{
+    font-size: 15px;
+}
+.main > h1{
+    padding: 10px;
 }
